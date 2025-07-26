@@ -1,0 +1,145 @@
+/* Universel auto padding - margine remove */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* This is for header */
+header h2{
+    color: red;
+    font-style: italic;
+}
+header{
+    background-image: url(18ff5dc9-3ebf-430c-a45e-22da9e32389d.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: auto;
+    padding-left: 100px;
+    text-align: center;
+    background-color: #F9AFAF;
+    height: 20vh;
+}
+body{
+    background-color: 	#FFF8F0;
+}
+/* This is for navigation */
+.fa-solid{
+    font-size: 1.5rem;
+
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    color: #333333;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.1rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+    background-color:#F9AFAF;
+}
+
+nav ul li input{
+    padding:2px;
+    background-color:#FFFFFF;
+    color: #777777;
+}
+/* This is for Cards of pets tom & jerry */
+.card1,.card2,.card3,.card4,.card5{
+    background-color:#FFE3DC ;
+    border: 1px solid #C77D7D;
+    margin: 20px 10px;
+    padding: 10px;
+    height: 500px;
+    width:30%;
+    border-radius: 20px;
+    text-align: justify;
+}
+.Jerry,.tom,.bao,.luna,.lily{
+    height:30%;
+    width:95%;
+    height: fit-content;
+    display: flex;
+    justify-self: center;
+    padding: 2px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px lightcoral;
+}
+div h3{
+    text-align: center;
+    color: black;
+}
+/* Wrapper */
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1,.card2,.card3,.card4,.card5{
+    width: 80%;
+    margin: 10px 0;
+    padding: 2px;
+  }  
+}
+div p{
+    text-align: justify;
+}
+
+.tom:hover{
+    box-shadow: 2px 2px 10px #5C4033;
+    width: auto;
+    height: 45%;
+}
+.Jerry:hover{
+    width:auto;
+    height: 45%;
+    box-shadow: 2px 2px 10px #5C4033;
+}
+.bao:hover{
+    width:auto;
+    height: 45%;
+    box-shadow: 2px 2px 10px #5C4033;
+}
+.luna:hover{
+    width:auto;
+    height: 45%;
+    box-shadow: 2px 2px 10px #5C4033;
+}
+.lily:hover{
+    width:auto;
+    height: 45%;
+    box-shadow: 2px 2px 10px #5C4033;
+}
+.cards:hover{
+    background-color: #E06666;
+}
+/* Footer */
+footer h4{
+    background-color:transparent;
+    border:0.1px ridge #FDF6EC;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #F9AFAF;
+}
+
+nav ul li a:hover{
+    font-size: 1.12rem;
+    box-shadow: 2px 2px 10px #777777;
+    /* background-color:#B2E2B2; */
+    background-color: #F08080;
+}
