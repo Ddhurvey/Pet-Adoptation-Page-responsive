@@ -119,6 +119,37 @@ div h3{
      flex-wrap: wrap;
     justify-content: space-evenly;
 }
+@media(min-width:768px){        
+    .tom:hover{
+        box-shadow: 2px 2px 10px #5C4033;
+        width: auto;
+        height: 45%;
+    }
+    .Jerry:hover{
+        width:auto;
+        height: 45%;
+        box-shadow: 2px 2px 10px #5C4033;
+    }
+    .bao:hover{
+        width:auto;
+        height: 45%;
+        box-shadow: 2px 2px 10px #5C4033;
+    }
+    .luna:hover{
+        width:auto;
+        height: 45%;
+        box-shadow: 2px 2px 10px #5C4033;
+    }
+    .lily:hover{
+        width:auto;
+        height: 45%;
+        box-shadow: 2px 2px 10px #5C4033;
+    }
+    .cards:hover{
+        background-color: #E06666;
+        color: #112A46;
+    }
+}
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;
@@ -129,56 +160,12 @@ div h3{
     margin: 10px 0;
     padding: 2px;
     font-family:'Courier New', Courier, monospace;
-  }  
-  .tom:hover{
-    box-shadow: 2px 2px 10px #5C4033;
-  }
-  .Jerry:hover{
-    box-shadow: 2px 2px 10px #5C4033;
-  }
-  .bao:hover{
-    box-shadow: 2px 2px 10px #5C4033;
-  }
-  .luna:hover{
-    box-shadow: 2px 2px 10px #5C4033;
-  }
-  .lily:hover{
-    box-shadow: 2px 2px 10px #5C4033;
   }
 }
 div p{
     text-align: justify;
 }
 
-.tom:hover{
-    box-shadow: 2px 2px 10px #5C4033;
-    width: auto;
-    height: 45%;
-}
-.Jerry:hover{
-    width:auto;
-    height: 45%;
-    box-shadow: 2px 2px 10px #5C4033;
-}
-.bao:hover{
-    width:auto;
-    height: 45%;
-    box-shadow: 2px 2px 10px #5C4033;
-}
-.luna:hover{
-    width:auto;
-    height: 45%;
-    box-shadow: 2px 2px 10px #5C4033;
-}
-.lily:hover{
-    width:auto;
-    height: 45%;
-    box-shadow: 2px 2px 10px #5C4033;
-}
-.cards:hover{
-    background-color: #E06666;
-    color: #112A46;
-}
 /* Footer */
 footer h4{
     background-color:transparent;
