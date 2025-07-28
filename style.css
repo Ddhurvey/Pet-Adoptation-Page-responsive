@@ -1,3 +1,6 @@
+/* Header Font */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Goldman:wght@400;700&family=Manrope:wght@200..800&display=swap');
+
 /* Universel auto padding - margine remove */
 *{
     padding: 0;
@@ -5,10 +8,34 @@
     margin: 0;
 }
 /* This is for header */
-header h2{
-    color: red;
+header h1{
+    color:#112A46;
     font-style: italic;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
 }
+.searchbox{
+    border: 1px solid grey;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin: -7px;
+}
+#search-box{
+    border: none;
+    outline: none;
+}
+
+nav ul li section input{
+    text-decoration: none;
+    color: #333333;
+    background-color:#FFF8F0;
+
+}
+
 header{
     background-image: url(18ff5dc9-3ebf-430c-a45e-22da9e32389d.png);
     background-size: contain;
@@ -19,14 +46,18 @@ header{
     text-align: center;
     background-color: #F9AFAF;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body{
     background-color: 	#FFF8F0;
 }
 /* This is for navigation */
 .fa-solid{
-    font-size: 1.5rem;
-
+    font-size: 1.1rem;
+    border: none;
+    display: inline-block;
 }
 nav ul{
     display: flex;
@@ -36,17 +67,18 @@ nav ul{
 nav ul li{
     list-style: none;
     color: #333333;
-    margin: 10px;
+    margin: 1.5rem;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: #333333;
+    color: #112A46;
     font-size: 1.1rem;
     border: 1px solid gray;
     border-radius: 20px;
     padding: 5px;
     background-color:#F9AFAF;
+    margin-top: 10px;
 }
 
 nav ul li input{
@@ -64,6 +96,7 @@ nav ul li input{
     width:30%;
     border-radius: 20px;
     text-align: justify;
+    color: #112A46;
 }
 .Jerry,.tom,.bao,.luna,.lily{
     height:30%;
@@ -82,7 +115,7 @@ div h3{
 /* Wrapper */
 .wrapper{
     display:flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 @media (max-width: 768px) {
@@ -94,7 +127,23 @@ div h3{
     width: 80%;
     margin: 10px 0;
     padding: 2px;
+    font-family:'Courier New', Courier, monospace;
   }  
+  .tom:hover{
+    box-shadow: 2px 2px 10px #5C4033;
+  }
+  .Jerry:hover{
+    box-shadow: 2px 2px 10px #5C4033;
+  }
+  .bao:hover{
+    box-shadow: 2px 2px 10px #5C4033;
+  }
+  .luna:hover{
+    box-shadow: 2px 2px 10px #5C4033;
+  }
+  .lily:hover{
+    box-shadow: 2px 2px 10px #5C4033;
+  }
 }
 div p{
     text-align: justify;
@@ -127,6 +176,7 @@ div p{
 }
 .cards:hover{
     background-color: #E06666;
+    color: #112A46;
 }
 /* Footer */
 footer h4{
