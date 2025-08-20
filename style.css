@@ -116,7 +116,7 @@ div h3{
 /* Wrapper */
 .wrapper{
     display:flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 @media(min-width:768px){        
